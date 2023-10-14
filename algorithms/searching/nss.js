@@ -1,6 +1,8 @@
 // Naive String Search - brute force to search for a substring of a string
 // below example shows how many times does the substring occur in the 'long' string
 // parameter str is the long string, ss is the substring in the example below:
+// time complexity - O(m * (n - m + 1)) n - length of longer string, m - length of substring
+// review KMP (kmp.js) algorithm for the same result with improved time complexity
 
 function nss(str, ss) {
   let count = 0;
