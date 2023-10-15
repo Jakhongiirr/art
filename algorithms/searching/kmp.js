@@ -1,6 +1,5 @@
 // better way of naive string search
-// we look for substring and remember, so that we can pass those in the next iteration
-// watch this video for better explanation - https://youtu.be/V5-7GzOfADQ
+// watch this video for explanation - https://youtu.be/V5-7GzOfADQ
 // O(n+m) time complexity
 
 function buildKMPTable(pattern) {
