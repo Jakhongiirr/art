@@ -34,4 +34,4 @@ const sortedArray = [
 const val = 13; // -> searching value
 const response = binarySearch(sortedArray, val);
 
-console.log(`index of ${val} is ${response}`);
+console.log(`index of ${val} is ${response}`); // 12 (index)

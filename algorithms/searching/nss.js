@@ -21,6 +21,6 @@ function nss(str, ss) {
 
 const string = "mgoomg omg! omgaaa";
 const subString = "omg";
-const response = nss(string, subString);
+const response = nss(string, subString); // 3
 
 console.log(response);
