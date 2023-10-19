@@ -1,0 +1,24 @@
+{
+  "name": "jds",
+  "version": "1.0.0",
+  "description": "Algorithms and Data structures examples written in TypeScript",
+  "keywords": [
+    "javascript",
+    "typescript",
+    "algorithms",
+    "data-structures"
+  ],
+  "author": "Jakhongir Ravshanov",
+  "license": "MIT",
+  "scripts": {
+    "recursion:factorial": "ts-node ./algorithms/recursion/factorial.ts",
+    "search:binary": "ts-node ./algorithms/searching/binary.ts",
+    "search:kmp": "ts-node ./algorithms/searching/kmp.ts",
+    "search:linear": "ts-node ./algorithms/searching/linear.ts",
+    "search:nss": "ts-node ./algorithms/searching/nss.ts"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}

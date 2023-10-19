@@ -2,7 +2,7 @@
 // also JavaScript's built-in methods - .indexof(), .find(), findIndex().
 // O(n) time complexity
 
-function linearSearch(arr, val) {
+function linearSearch(arr: number[], val: number) {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === val) return i;
   }

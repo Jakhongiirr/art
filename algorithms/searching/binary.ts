@@ -10,10 +10,10 @@
 // the example below shows how to implement this for sorted ascending order array
 // do it yourself for descending order - [15, 14, 13, 12, ......3, 2, 1]
 
-function binarySearch(arr, value) {
+function binarySearch(arr: number[], value: number): number {
   let left = 0;
   let right = arr.length - 1;
-  let mid;
+  let mid: number;
 
   while (left <= right) {
     mid = Math.floor((left + right) / 2);

@@ -2,7 +2,7 @@
 // watch this video for explanation - https://youtu.be/V5-7GzOfADQ
 // O(n+m) time complexity
 
-function buildKMPTable(pattern) {
+function buildKMPTable(pattern: string) {
   const table = new Array(pattern.length).fill(0);
   let prefix = 0;
 
@@ -21,9 +21,9 @@ function buildKMPTable(pattern) {
   return table;
 }
 
-function kmpSearch(text, pattern) {
+function kmpSearch(text: string, pattern: string): number[] {
   const table = buildKMPTable(pattern);
-  const matches = [];
+  const matches: number[] = [];
   let textIndex = 0;
   let patternIndex = 0;
 
