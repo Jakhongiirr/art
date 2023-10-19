@@ -2,7 +2,7 @@
 // watch this video for explanation - https://youtu.be/V5-7GzOfADQ
 // O(n+m) time complexity
 
-function buildKMPTable(pattern: string) {
+function buildKMPTable(pattern: string): number[] {
   const table = new Array(pattern.length).fill(0);
   let prefix = 0;
 

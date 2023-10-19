@@ -4,7 +4,7 @@
 // time complexity - O(m * (n - m + 1)) n - length of longer string, m - length of substring
 // review KMP (kmp.js) algorithm for the same result with improved time complexity
 
-function nss(str: string, ss: string) {
+function nss(str: string, ss: string): number {
   let count = 0;
 
   for (let i = 0; i < str.length; i++) {
