@@ -15,7 +15,8 @@
     "search:binary": "ts-node ./algorithms/searching/binary.ts",
     "search:kmp": "ts-node ./algorithms/searching/kmp.ts",
     "search:linear": "ts-node ./algorithms/searching/linear.ts",
-    "search:nss": "ts-node ./algorithms/searching/nss.ts"
+    "search:nss": "ts-node ./algorithms/searching/nss.ts",
+    "sort:bubble": "ts-node ./algorithms/sorting/bubble.ts"
   },
   "dependencies": {
     "ts-node": "^10.9.1",
