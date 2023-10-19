@@ -11,15 +11,20 @@ function swap(arr: number[], idx1: number, idx2: number): number[] {
 }
 
 function bubbleSort(arr: number[]): number[] {
-  for (let i = 0; i < arr.length; i++) {
-    for (let j = 0; j < arr.length - 1; j++) {
+  const n = arr.length;
+  for (let i = 0; i < n - 1; i++) {
+    let swapped = false;
+    for (let j = 0; j < n - 1 - i; j++) {
       console.log(
-        `Current array: [${arr}]; compare ${arr[j]} with ${arr[j + 1]}`
+        `Current array: [${arr}]; comparing ${arr[j]} with ${arr[j + 1]}`
       );
-      if (arr[j] > arr[j + 1]) arr = swap(arr, j, j + 1);
+      if (arr[j] > arr[j + 1]) {
+        swap(arr, j, j + 1);
+        swapped = true;
+      }
     }
+    if (!swapped) break; // If no swaps were made, the array is already sorted.
   }
-  console.log("\nResult:");
   return arr;
 }
 
