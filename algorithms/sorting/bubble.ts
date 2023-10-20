@@ -25,8 +25,10 @@ function bubbleSort(arr: number[]): number[] {
     }
     if (!swapped) break; // If no swaps were made, the array is already sorted.
   }
+  console.log('\nResult:')
   return arr;
 }
 
 const arr = [3, 1, 2, 14, -1, 0, 8];
-console.log(bubbleSort(arr));
+const result = bubbleSort(arr);
+console.log(`[${result}]`);
