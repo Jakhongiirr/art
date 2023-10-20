@@ -1,6 +1,13 @@
 // use binary search to efficently find insertion index
 // look at algorithms/searching/binary.ts file for explanation of binary search
 // not mandatory, but efficent to use this algorithm here ))
+/**
+ * Time complexities:
+ *  Best: O(n)
+ *  Avarage: generally it's O(n^2), but because we're using binary search, it's O(nlogn) in our case
+ *  Worst: O(n^2), but it's actually O(nlogn) in the code below, much improvement :)
+ */
+
 function binarySearch(
   arr: number[],
   value: number,

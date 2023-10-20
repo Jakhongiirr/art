@@ -1,6 +1,12 @@
 // bubble sort
 // let's see bubble sort for array of numbers
 // you can try yourself for strings
+/*
+ * Time complexities:
+ *  Best case: O(n)
+ *  Avarage: O(n^2)
+ *  Worst: O(n^2)
+ */
 
 function swap(arr: number[], idx1: number, idx2: number): number[] {
   const temp = arr[idx1];
@@ -25,7 +31,7 @@ function bubbleSort(arr: number[]): number[] {
     }
     if (!swapped) break; // If no swaps were made, the array is already sorted.
   }
-  console.log('\nResult:')
+  console.log("\nResult:");
   return arr;
 }
 

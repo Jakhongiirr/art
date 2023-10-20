@@ -1,6 +1,9 @@
 // repeatedly selects the smallest element from the unsorted portion of an array 
 // and moves it to the sorted portion.
 // also you can choose the biggest one and do the same
+/**
+ * Time complexity: O(n^2)
+ */
 
 function swap(arr: number[], idx1: number, idx2: number): number[] {
   // e.g: [1, 2] becomes [2, 1]
