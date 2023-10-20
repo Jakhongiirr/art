@@ -17,7 +17,8 @@
     "search:linear": "ts-node ./algorithms/searching/linear.ts",
     "search:nss": "ts-node ./algorithms/searching/nss.ts",
     "sort:bubble": "ts-node ./algorithms/sorting/bubble.ts",
-    "sort:selection": "ts-node ./algorithms/sorting/selection.ts"
+    "sort:selection": "ts-node ./algorithms/sorting/selection.ts",
+    "sort:insertion": "ts-node ./algorithms/sorting/insertion.ts"
   },
   "dependencies": {
     "ts-node": "^10.9.1",
