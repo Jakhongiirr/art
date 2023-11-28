@@ -2,12 +2,12 @@ function mergeSort(arr: number[]): number[] {
   if (arr.length <= 1) {
     return arr;
   }
-  
+
   // Split the array into two halves
   const middle = Math.floor(arr.length / 2);
   const left = arr.slice(0, middle);
   const right = arr.slice(middle);
-console.log(`left: [${left}]; right: [${right}]`)
+  console.log(`left: [${left}]; right: [${right}]`);
   // Recursively sort both halves
   const leftSorted = mergeSort(left);
   const rightSorted = mergeSort(right);
