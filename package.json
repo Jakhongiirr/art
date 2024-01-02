@@ -21,7 +21,8 @@
     "sort:insertion": "ts-node ./algorithms/sorting/insertion.ts",
     "sort:merge": "ts-node ./algorithms/sorting/merge.ts",
     "sort:quick": "ts-node ./algorithms/sorting/quick.ts",
-    "sort:radix": "ts-node ./algorithms/sorting/radix.ts"
+    "sort:radix": "ts-node ./algorithms/sorting/radix.ts",
+    "ll:singly": "ts-node data-structures/linked-lists/singly-linked-list"
   },
   "dependencies": {
     "ts-node": "^10.9.1",
