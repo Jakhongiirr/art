@@ -24,7 +24,8 @@
     "sort:radix": "ts-node ./algorithms/sorting/radix.ts",
     "ll:singly": "ts-node data-structures/linked-lists/singly-linked-list",
     "ll:doubly": "ts-node data-structures/linked-lists/doubly-linked-list",
-    "stack": "ts-node data-structures/stack-and-queues/stack"
+    "stack": "ts-node data-structures/stack-and-queues/stack",
+    "queue": "ts-node data-structures/stack-and-queues/queue"
   },
   "dependencies": {
     "ts-node": "^10.9.1",
