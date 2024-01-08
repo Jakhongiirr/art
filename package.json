@@ -25,7 +25,8 @@
     "ll:singly": "ts-node data-structures/linked-lists/singly-linked-list",
     "ll:doubly": "ts-node data-structures/linked-lists/doubly-linked-list",
     "stack": "ts-node data-structures/stack-and-queues/stack",
-    "queue": "ts-node data-structures/stack-and-queues/queue"
+    "queue": "ts-node data-structures/stack-and-queues/queue",
+    "tree": "ts-node data-structures/trees/tree"
   },
   "dependencies": {
     "ts-node": "^10.9.1",
