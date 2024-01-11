@@ -27,7 +27,8 @@
     "stack": "ts-node data-structures/stack-and-queues/stack",
     "queue": "ts-node data-structures/stack-and-queues/queue",
     "btree": "ts-node data-structures/trees/btree",
-    "bheaps": "ts-node data-structures/heaps/bheap.ts"
+    "bheaps": "ts-node data-structures/heaps/bheap.ts",
+    "pqueue": "ts-node data-structures/stack-and-queues/pqueue.ts"
   },
   "dependencies": {
     "ts-node": "^10.9.1",
