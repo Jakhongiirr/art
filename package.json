@@ -31,7 +31,8 @@
     "pqueue": "ts-node data-structures/stack-and-queues/pqueue.ts",
     "hash-table": "ts-node data-structures/hash-table/hash-table.ts",
     "graph": "ts-node data-structures/graphs/graph",
-    "graph:dfs": "ts-node data-structures/graphs/graphs.dfs.ts"
+    "graph:dfs": "ts-node data-structures/graphs/graphs.dfs.ts",
+    "dijkstra": "ts-node data-structures/dijkstra/dijkstra"
   },
   "dependencies": {
     "ts-node": "^10.9.1",
