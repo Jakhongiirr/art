@@ -30,7 +30,8 @@
     "bheaps": "ts-node data-structures/heaps/bheap.ts",
     "pqueue": "ts-node data-structures/stack-and-queues/pqueue.ts",
     "hash-table": "ts-node data-structures/hash-table/hash-table.ts",
-    "graph": "ts-node data-structures/graphs/graph"
+    "graph": "ts-node data-structures/graphs/graph",
+    "graph:dfs": "ts-node data-structures/graphs/graphs.dfs.ts"
   },
   "dependencies": {
     "ts-node": "^10.9.1",
