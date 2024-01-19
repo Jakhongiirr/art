@@ -19,7 +19,11 @@ This TypeScript project implements various algorithms and data structures. It pr
 
 1. Clone the repo
 2. Open terminal
-3. Look at package.json - you can easily run any algorithm and data structure using npm
+3. Install npm packages
+```bash
+npm install
+```
+4. Look at package.json - you can easily run any algorithm and data structure using npm
 ## Sample:
 ```bash
 npm run dijkstra
